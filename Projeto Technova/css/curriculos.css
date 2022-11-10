@@ -1,0 +1,60 @@
+main {
+    position: relative;
+}
+body main .contact-form textarea {
+    resize: none;
+    padding: 10px;
+}
+.margin-horizontal-20px {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+form {
+    margin-top: 0em;
+    font-family: 'Kanit', sans-serif; 
+    font-size: 16px;
+}
+input{
+    font-family: 'Kanit', sans-serif; 
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #2B0E64;
+}
+textarea{
+    font-family: 'Kanit', sans-serif; 
+    font-size: 16px;
+    border: 2px solid #2B0E64;
+    
+}
+.contact-form {
+    margin-top: 30px;
+    width: 60%;
+    border: 1px solid #2B0E64;
+    border-radius: 20px;
+    padding: 25px;
+}
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+button{
+    background-color: white
+    text;
+    color: black;
+    border: 2px solid #2B0E64;
+    font-family: 'Kanit', sans-serif; 
+    font-size: 16px;
+    border-radius: 5px;
+}
+button {
+    transition-duration: 0.4s;
+  }
+  
+button:hover {
+    background-color: #2B0E64; /* Green */
+    color: white;
+}
